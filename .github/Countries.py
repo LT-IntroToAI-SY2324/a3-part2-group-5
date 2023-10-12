@@ -95,6 +95,30 @@ country_db: List[Tuple[str, str, int, List[str]] ] = [
             "Viktor Yanukovych",
             "Viktor Yushchenko"
         ]
+    ),
+    (
+        "Finland",
+        "Finish, Swedish",
+        1917,
+        [
+            "Sauli Väinämö Niinistö"
+            "Tarja Kaarina Halonen"
+            "Martti Oiva Kalevi Ahtisaari"
+            "Mauno Henrik Koivisto"
+            "Urho Kaleva Kekkonen"
+        ]
+    ),
+    (
+        "Philippines",
+        "Filipino, English",
+        1899,
+        [
+            "Bongbong Marcos",
+            "Rodrigo Duterte",
+            "Benigno Aquino III",
+            "Gloria Macapagal Arroyo"
+            "Joseph Estrada"
+        ]
     )
 
 ]
