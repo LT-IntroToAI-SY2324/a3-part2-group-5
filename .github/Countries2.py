@@ -94,3 +94,27 @@
             "Julia Gillard"
         ]
     )
+    (
+        "New Zealand",
+        "English",
+        1840,
+        [
+            "Chris Hipkins",
+            "Dame Jacinda Ardern",
+            "Bill English",
+            "John Key",
+            "Helen Clark"
+        ]
+    )
+    (
+        "Austria",
+        "German",
+        1955,
+        [
+            "Alexander Van der Bellen",
+            "Norbert Hofer",
+            "Karlheinz Kopf",
+            "Doris Bures",
+            "Heinz Fischer"
+        ]
+    )
