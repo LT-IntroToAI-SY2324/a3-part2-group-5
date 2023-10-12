@@ -1,3 +1,5 @@
+from typing import List, Tuple
+
 country_db: List[Tuple[str, str, int, List[str]] ] = [
     (
         "United States", # Name
