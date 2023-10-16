@@ -12,3 +12,9 @@ def year_by_name(matches: List[str]) -> int:
         if country[0] == matches:
             return country[2]
     return None
+def names_by_year(year: int) -> List[str]:
+    result = []
+    for country in country_db:
+        if country[2] == year:
+            result.append(country[0])
+    return result
