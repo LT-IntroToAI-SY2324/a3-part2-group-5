@@ -65,7 +65,7 @@ country_db: List[Tuple[str, str, int, List[str]] ] = [
     (
         "Mexico",
         "Spanish",
-        1821
+        1821,
         [
             "Andrés Manuel López Obrador",
             "Enrique Peña Nieto",
