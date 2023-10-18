@@ -60,14 +60,6 @@ def name_by_language(matches: List[str]) -> List[str]:
             results.append(get_name(country))
     return results
 def name_by_leader(matches: List[str]) -> List[str]:
-    """Finds titles of all movies that the given actor was in
-
-    Args:
-        matches - a list of 1 string, just the actor
-
-    Returns:
-        a list of movie titles that the actor acted in
-    """
     x = []
     for country in country_db:
         for i in range(len(country[3])): 
@@ -84,6 +76,6 @@ pa_list: List[Tuple[List[str], Callable[[List[str]], List[Any]]]] = [
     (str.split("what year was % founded in"), year_by_name),
     (str.split("when was % founded"), year_by_name),
     (str.split("what countries has % led"), name_by_leader),
-    (["bye"], bye_action),
+    ##(["bye"], bye_action),
 ]
 
