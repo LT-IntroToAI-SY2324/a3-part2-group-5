@@ -98,6 +98,7 @@ def search_pa_list(src: List[str]) -> List[str]:
             else:
                 return pa_list[i][1](match(pa_list[i][0], src))
     return ["I don't understand"]
+print(search_pa_list("what countries were founded in 1776"))
 def query_loop() -> None:
     """The simple query loop. The try/except structure is to catch Ctrl-C or Ctrl-D
     characters and exit gracefully.
@@ -115,5 +116,4 @@ def query_loop() -> None:
             break
 
     print("\nSo long!\n")
-query_loop()
 
