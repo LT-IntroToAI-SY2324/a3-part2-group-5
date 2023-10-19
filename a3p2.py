@@ -117,4 +117,4 @@ def query_loop() -> None:
             break
 
     print("\nSo long!\n")
-query_loop
+query_loop()
