@@ -40,7 +40,7 @@ def names_before_year(year: int) -> List[str]:
         if country[2] < year:
             result.append(country[0])
     return result
-def language_by_name(matches: List[str]) -> List[str]:
+def language_by_name(matches: str) -> List[str]:
     for country in country_db:
         if country[0] == matches:
             return country[1]
@@ -98,7 +98,8 @@ def search_pa_list(src: List[str]) -> List[str]:
             else:
                 return pa_list[i][1](match(pa_list[i][0], src))
     return ["I don't understand"]
-print(search_pa_list("what is the official language of China"))
+##print(search_pa_list("what is the official language of China"))
+##print(language_by_name("China"))
 def query_loop() -> None:
     """The simple query loop. The try/except structure is to catch Ctrl-C or Ctrl-D
     characters and exit gracefully.
@@ -116,4 +117,4 @@ def query_loop() -> None:
             break
 
     print("\nSo long!\n")
-
+query_loop
